@@ -1,4 +1,4 @@
-// customerDb.js
+
 const { runQuery } = require('./db');
 const Customer = require('./models/Customer');
 
@@ -13,7 +13,8 @@ class CustomerDB {
     }
   }
 
-  // Additional methods for customer-related operations can be added here
+  
+ 
 }
 
 module.exports = CustomerDB;

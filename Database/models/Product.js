@@ -10,13 +10,6 @@ class Product {
       this.subcategoryId = subcategoryId;
     }
   
-    updateStock(newStock) {
-      this.stock = newStock;
-    }
-  
-    calculateDiscount(discountPercentage) {
-      return this.price * (1 - discountPercentage);
-    }
   }
   
   module.exports = Product;
