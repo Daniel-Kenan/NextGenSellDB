@@ -1,4 +1,3 @@
-// pos.js
 const db = require('./Database/db');
 const Product = require('./Database/models/Product');
 const Customer = require('./Database/models/Customer');
