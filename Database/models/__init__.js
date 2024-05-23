@@ -5,7 +5,7 @@ class Model {
         if (this.constructor === Model) {
             throw new Error('Cannot instantiate abstract class Model directly.');
         }
-        this.createTable();
+       this.createTable();
     }
 
     async createTable() {

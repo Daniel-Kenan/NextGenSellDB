@@ -1,3 +1,5 @@
+const Model = require("./__init__");
+
 class Sale extends Model {
   static tableName = 'sales';
   static tableSchema = `

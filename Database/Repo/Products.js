@@ -10,7 +10,7 @@ class ProductTable{
     } catch (err) {
       console.error(err.message);
     }
-  }
+  } 
 
   static async updateProduct(product) {
     try {
