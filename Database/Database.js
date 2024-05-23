@@ -4,7 +4,7 @@ const Customer = require('./Models/Customer');
 const Sale = require('./Models/Sale');
 const ProductTable = require('./Repo/Products.js');
 const CustomerTable = require('./Repo/Customers.js');
-// const SaleTable = require('./DAL/Sales');
+const SaleTable = require('./Repo/Sales');
 
 
 const Objects = { 
@@ -14,9 +14,9 @@ const Objects = {
   Sale:Sale
     }, 
   tables:{
-    ProductTable: ProductTable,
-    CustomerTable: CustomerTable,
-    SaleTable: SaleTable,   
+    Products: ProductTable,
+    Customers: CustomerTable,
+    Sales: SaleTable,   
 }
  }
 
