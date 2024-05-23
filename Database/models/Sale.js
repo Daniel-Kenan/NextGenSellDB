@@ -1,4 +1,3 @@
-// models/Sale.js
 class Sale {
     constructor(id, customerId, productId, quantity, totalPrice, paymentMethod, date, salesperson) {
       this.id = id;

@@ -1,4 +1,3 @@
-// models/Customer.js
 class Customer {
     constructor(id, name, email, phone, address, loyaltyPoints = 0) {
       this.id = id;
@@ -8,7 +7,6 @@ class Customer {
       this.address = address;
       this.loyaltyPoints = loyaltyPoints;
     }
-
     
   }
   

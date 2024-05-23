@@ -1,8 +1,8 @@
-// productDb.js
-const { runQuery, getQuery } = require('./db');
-const Product = require('./models/Product');
 
-class ProductDB {
+const { runQuery, getQuery } = require('../Setup');
+
+
+class ProductTable{
   static async addProduct(product) {
     try {
       await runQuery(`INSERT INTO products (name, sku, price, stock, min_stock_level, vendor, subcategory_id) VALUES (?, ?, ?, ?, ?, ?, ?)`, 
@@ -51,4 +51,4 @@ class ProductDB {
   }
 }
 
-module.exports = ProductDB;
+module.exports = ProductTable;

@@ -1,8 +1,8 @@
 
-const { runQuery } = require('./db');
-const Customer = require('./models/Customer');
+const { runQuery } = require('../Setup');
 
-class CustomerDB {
+
+class SaleTable {
   static async addCustomer(customer) {
     try {
       await runQuery(`INSERT INTO customers (name, email, phone, address, loyalty_points) VALUES (?, ?, ?, ?, ?)`, 
@@ -17,4 +17,4 @@ class CustomerDB {
  
 }
 
-module.exports = CustomerDB;
+module.exports = SaleTable;
