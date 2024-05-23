@@ -1,5 +1,4 @@
 const Model = require("./__init__");
-
 class Product extends Model {
     static tableName = 'products';
     static tableSchema = `
